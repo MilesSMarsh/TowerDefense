@@ -1,5 +1,5 @@
 let config = {
-    type: Phaser.CANVAS,
+    type: Phaser.AUTO,
     width: 700,
     height: 700,
     pixelArt: true,
@@ -12,4 +12,4 @@ let config = {
     scene: [ Play ]
 }
 
-const game = new Phaser.Game(config);
+let game = new Phaser.Game(config);
